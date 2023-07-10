@@ -1,0 +1,116 @@
+{% extends 'core/base.html' %}
+{% block title %}Portada{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Ezequiel Enrico</h1>
+<span class="subheading">Desarrollador Fullstack</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h2>Un poco sobre mi</h2><br>
+    <br><p>Bienvenido a mi portafolio en línea Recuerda que en la seccion acerca de encontraras mi informacion personal, Aquí veras ejemplos de las herramientas con las que trabajo como desarrollador fullstack.</p>
+    <p>Estoy especializado en el desarrollo web, utilizando tecnologías modernas como HTML, CSS, JavaScript y frameworks como Django y React.</p>
+    <p>Explora las secciones de mi portafolio para ver proyectos pasados y actuales. Si tienes alguna pregunta o estás interesado en trabajar juntos, no dudes en contactarme utilizando el formulario o la información para contactar que se encuentra en la seccion de contacto.</p>
+    
+    <section id="programming-languages" class="programming-languages-mf pt-5 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">Conocimientos de Programación</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="programming-language-box">
+                        <img src="{% static 'core/img/python.jpeg' %}" alt="Python">
+                        <div class="programming-language-content">
+                            <h4 class="title">Python</h4>
+                            <p class="description">Me apasiona el desarrollo de Python, un lenguaje de programación versátil y potente. Mi enfoque principal se centra en el campo del machine learning y la inteligencia artificial. A través de Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="programming-language-box">
+                        <img src="{% static 'core/img/javascript.jpeg' %}" alt="JavaScript">
+                        <div class="programming-language-content">
+                            <h4 class="title">JavaScript</h4>
+                            <p class="description"> he creado aplicaciones web interactivas y dinámicas, implementando funcionalidades como manipulación del DOM, interacción con API's y desarrollo de interfaces de usuario intuitivas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="programming-language-box">
+                        <img src="{% static 'core/img/csharp.jpeg' %}" alt="C#">
+                        <div class="programming-language-content">
+                            <h4 class="title">.NET C#</h4>
+                            <p class="description">Desarrollé una aplicación de gestión empresarial utilizando C# y Windows Forms. Con programación orientada a objetos, creé una solución eficiente y escalable para administrar los procesos clave de una empresa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="programming-language-box">
+                        <img src="{% static 'core/img/django.jpeg' %}" alt="Django">
+                        <div class="programming-language-content">
+                            <h4 class="title">Django</h4>
+                            <p class="description">he creado un sitio web dinámico y robusto que muestra ejemplos de mi trabajo como desarrollador fullstack. He utilizado características clave de Django, como el enrutamiento de URL, el sistema de plantillas, la administración de bases de datos y la autenticación de usuarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="programming-language-box">
+                        <img src="{% static 'core/img/node.jpeg' %}" alt="nodeJs">
+                        <div class="programming-language-content">
+                            <h4 class="title">NodeJs</h4>
+                            <p class="description"> he construido API REST y CRUD, implementado autenticación y autorización, y utilizado bases de datos como phpmyadmin.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="programming-language-box">
+                        <img src="{% static 'core/img/php.jpeg' %}" alt="php">
+                        <div class="programming-language-content">
+                            <h4 class="title">php</h4>
+                            <p class="description">Participe en el desarrollo de aplicaciones web robustas y dinámicas utilizando sus frameworks populares como Laravel. He trabajado creando sistemas de gestión, plataformas de comercio electrónico y aplicaciones empresariales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">Otras Tecnologías</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="{% static 'core/img/docker.jpeg' %}" alt="Docker">
+                </div>
+                <div class="col-md-2">
+                    <img src="{% static 'core/img/powershell.jpeg' %}" alt="Powershell">
+                </div>
+                <div class="col-md-2">
+                    <img src="{% static 'core/img/git.jpeg' %}" alt="Git">
+                </div>
+                <div class="col-md-2">
+                    <img src="{% static 'core/img/mysql.jpeg' %}" alt="MySQL">
+                </div>
+                <div class="col-md-2">
+                    <img src="{% static 'core/img/mongodb.jpeg' %}" alt="MongoDB">
+                </div>
+                <div class="col-md-2">
+                    <img src="{% static 'core/img/linux.jpeg' %}" alt="Linux">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

@@ -1,0 +1,105 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Sobre mí{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+  <h1>Acerca de</h1>
+  <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+  <div class="row">   
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+      <img class="img-fluid avatar" src="{% static 'core/img/perfil.jpeg' %}" alt="">
+      <h4 class="section-heading">Perfil</h4>
+      <p>Profesional de sistemas, desarrollador Full-Stack.</p>
+      <p class="contact-info">Datos de contacto:</p>
+      <ul class="contact-list">
+        <li><i class="fas fa-envelope"></i> info@arecofix.com</li>
+        <li><i class="fas fa-phone"></i> 1125960900</li>
+      </ul>
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading">Ezequiel Enrico Areco</h2>   
+      <p>Actualmente trabajo en el sector gubernamental de equipo tecnico y tengo experiencia como profesor de informática y tutor en cursos de Reparación de Celulares. Disfruto trabajando en equipo y valoro la colaboración y el intercambio de ideas. Busco nuevas oportunidades profesionales en el campo de la tecnología de la información. Estoy en la etapa final de mi formación académica en la carrera de Tecnicatura Superior en Análisis de Sistemas. Me mantengo actualizado en las últimas tendencias y tecnologías informáticas a través del aprendizaje continuo.</p>
+      <p>Además, he participado en proyectos reales de desarrollo de software, adquiriendo experiencia práctica y demostrando habilidades para trabajar bajo presión y cumplir con plazos establecidos.</p>
+    </div>
+  </div>
+  <section id="experience" class="experience-mf pt-5 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">Experiencia Laboral</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="experience-box">
+            <h4 class="experience-title">Equipo Técnico</h4>
+            <p class="experience-description">Programa Envión, Municipio de Marcos Paz</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="experience-box">
+            <h4 class="experience-title">Policía Contravencional</h4>
+            <p class="experience-description">Secretaría de Seguridad</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="experience-box">
+            <h4 class="experience-title">Docente</h4>
+            <p class="experience-description">Eddis Educativa Sede Morón y Marcos Paz</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="education" class="education-mf pt-5 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">Educación</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="education-box">
+            <h4 class="education-title">Formación académica</h4>
+            <p class="education-description">ANALISTA EN SISTEMAS - Instituto de Formación Técnica N°177</p>
+            <p class="education-description">Actualmente cursando las últimas materias y con proyección de obtener el título en el año 2024.</p>
+            <h4 class="education-title">Conocimientos adquiridos</h4>
+            <ul class="knowledge-list">
+              <li>Programación en C#, HTML, CSS, JavaScript, Python, PHP, ReactJS, SQL</li>
+              <li>Frameworks: Bootstrap, Tailwind, Django</li>
+              <li>Programas de Concesionaria de Autos</li>
+              <li>Plataformas de carga de datos con Phpmyadmin</li>
+              <li>Paquete Office (Avanzado)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="education-box">
+            <h4 class="education-title">Cursos y talleres</h4>
+            <ul class="course-list">
+              <li>2022 - Capacitación Codo a Codo Fullstack Python</li>
+              <li>2021 - Cursos JavaScript, ReactJS y SQL (Coderhouse)</li>
+              <li>2021 - Curso de Base de Datos (Udemy)</li>
+              <li>2020 - Curso Desarrollador Web Full-Stack (LinkedIn Learning)</li>
+              <li>2019 - Curso Básico de Linux y Procesos, Bash</li>
+              <li>2019 - Realización de Aplicaciones Web y Hosting</li>
+            </ul>
+            <h4 class="education-title">Idiomas</h4>
+            <p class="education-description">Inglés B2, avanzado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+{% endblock %}

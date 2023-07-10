@@ -1,0 +1,132 @@
+/* Estilos para la sección de experiencia laboral */
+.experience-mf .title-a {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .experience-mf .experience-box {
+    margin-bottom: 30px;
+  }
+  
+  .experience-mf .experience-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .experience-mf .experience-description {
+    font-size: 18px;
+  }
+  
+  /* Estilos para la sección de educación */
+  .education-mf .title-a {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .education-mf .education-box {
+    margin-bottom: 30px;
+  }
+  
+  .education-mf .education-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .education-mf .education-description {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .education-mf .knowledge-list,
+  .education-mf .course-list {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos generales */
+  .section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  
+  .avatar {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 10px;
+  }
+  
+  .knowledge-list,
+  .course-list {
+    list-style-type: disc;
+  }
+  
+  .knowledge-list li,
+  .course-list li {
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    padding: 10px 0 65px;
+  }
+  
+  .footer .list-inline {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  /* Estilos adicionales según tus preferencias */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 800;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: #212529;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+  }
+  
+  a:focus,
+  a:hover {
+    color: #0085a1;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #868e96;
+  }
+  
+  
